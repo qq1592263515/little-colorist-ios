@@ -1,7 +1,7 @@
 # App Store 提交回执
 
 - 应用：小小涂色家
-- 平台：macOS
+- 平台：macOS、iOS（Universal App）
 - App Store Connect Apple ID：`6829425386`
 - Bundle ID：`com.jiahuichen.littlecolorist`
 - 版本：`1.0`
@@ -9,7 +9,8 @@
 - Build ID：`840b1d73-06f5-4efd-9381-45bddd1e041e`
 - 审核提交 ID：`9bf92bb8-1ecf-4d5e-a3e4-3875f7127356`
 - 首次提交时间：2026-11-01 19:25（Asia/Shanghai）
-- 提交后状态：`WAITING_FOR_REVIEW`
+- macOS 提交后状态：`WAITING_FOR_REVIEW`
+- iOS 提交后状态：`WAITING_FOR_REVIEW`
 - 价格：所有 175 个国家或地区免费
 - 年龄分级：4+
 - App 隐私：不收集数据
@@ -24,6 +25,16 @@ SHA-256：
 ```text
 7c58d51ac7058688306605bc11b7c377305d639df02547a9b3c28fa76c662ab5
 ```
+
+## iOS 提交回执
+
+- Version ID：`f9f82456-8c8f-4ea6-9397-ca4d0abfdbfd`
+- Build ID：`db1a73e2-2304-4992-a861-f9d21bd69d82`
+- 审核提交 ID：`490f8e29-e0ae-4a56-bb1d-705155aa2d6b`
+- 签署证书 ID：`7ZQVW7KRLT`
+- Provisioning Profile ID：`JP66267F9T`
+- iOS 首次提交时间：2026-11-01 23:34（Asia/Shanghai）
+- GitHub 云端构建：<https://github.com/qq1592263515/little-colorist-ios/actions/runs/41321346002>
 
 ## 商店页面
 
