@@ -82,7 +82,7 @@ targets:
           - UIInterfaceOrientationLandscapeRight
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.jiahuichen.littlecolorist.ios
+        PRODUCT_BUNDLE_IDENTIFIER: com.jiahuichen.littlecolorist
         PRODUCT_NAME: 小小涂色家
         CODE_SIGN_STYLE: Automatic
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon

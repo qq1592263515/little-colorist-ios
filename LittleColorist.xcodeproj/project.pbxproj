@@ -301,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiahuichen.littlecolorist.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiahuichen.littlecolorist;
 				PRODUCT_NAME = "小小涂色家";
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
@@ -409,7 +409,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiahuichen.littlecolorist.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiahuichen.littlecolorist;
 				PRODUCT_NAME = "小小涂色家";
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;

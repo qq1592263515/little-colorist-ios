@@ -4,7 +4,7 @@
 - 应用名称备选：小小涂色家 - 儿童离线涂色
 - 副标题：24 张动物画，轻松自由填色
 - Bundle ID（macOS）：`com.jiahuichen.littlecolorist`
-- Bundle ID（iOS）：`com.jiahuichen.littlecolorist.ios`
+- Bundle ID（iOS，与 macOS 通用）：`com.jiahuichen.littlecolorist`
 - SKU（建议）：`LITTLECOLORIST-2026`
 - 主分类：游戏 - 休闲
 - 次分类：教育

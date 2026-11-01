@@ -6,7 +6,7 @@
 - Runner: `macos-26`
 - Xcode project: `LittleColorist.xcodeproj`
 - Target/scheme: `LittleColorist-iOS`
-- Bundle ID: `com.jiahuichen.littlecolorist.ios`
+- Bundle ID: `com.jiahuichen.littlecolorist`（与 macOS 使用同一 Universal App ID）
 - Version/build: `1.0 (1)`
 - Export method: App Store Connect
 

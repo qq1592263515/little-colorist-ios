@@ -18,7 +18,7 @@
 3. 进入 Certificates, Identifiers & Profiles。
 4. 创建 App ID：
    - `com.jiahuichen.littlecolorist`
-   - `com.jiahuichen.littlecolorist.ios`
+   - `com.jiahuichen.littlecolorist`（与 macOS 共用 Universal App ID）
 5. 为两个 App ID 启用 Game Center 并非必需；本版本不需要任何 Capability。
 6. 在 App Store Connect 创建 Mac 应用记录，价格选 Free。
 
@@ -31,7 +31,7 @@
    - Bundle ID 确认 `com.jiahuichen.littlecolorist`
    - Distribution 自动管理
    - 保留 App Sandbox 和 User Selected File Read/Write，不勾选 Network
-4. iOS Target 使用 `com.jiahuichen.littlecolorist.ios`，同样自动管理签名。
+4. iOS Target 使用 `com.jiahuichen.littlecolorist`，与 macOS 共用 Universal App ID。
 5. 选择 Any Mac，Product > Archive。
 6. Organizer 中先 Validate App，再 Distribute App > App Store Connect > Upload。
 

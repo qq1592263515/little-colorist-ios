@@ -10,8 +10,8 @@
     <string>app-store-connect</string>
     <key>provisioningProfiles</key>
     <dict>
-        <key>com.jiahuichen.littlecolorist.ios</key>
-        <string>Little Colorist iOS App Store</string>
+		<key>com.jiahuichen.littlecolorist</key>
+		<string>Little Colorist iOS App Store Universal</string>
     </dict>
     <key>signingStyle</key>
     <string>manual</string>
