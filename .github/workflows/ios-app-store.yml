@@ -71,10 +71,10 @@ jobs:
           PROFILE_DIR="$HOME/Library/MobileDevice/Provisioning Profiles"
 
           printf '%s' "$PROFILE_GZIP_BASE64" | base64 -D | gunzip > "$PROFILE_PATH"
-          PROFILE_UUID="$(security cms -D -i "$PROFILE_PATH" \
-            | /usr/libexec/PlistBuddy -c 'Print :UUID' /dev/stdin)"
           mkdir -p "$PROFILE_DIR"
-          cp "$PROFILE_PATH" "$PROFILE_DIR/$PROFILE_UUID.mobileprovision"
+          cp "$PROFILE_PATH" "$PROFILE_DIR/LittleColorist.mobileprovision"
+          file "$PROFILE_PATH"
+          wc -c "$PROFILE_PATH"
 
       - name: Archive iOS app
         run: |
