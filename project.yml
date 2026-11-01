@@ -1,0 +1,109 @@
+name: LittleColorist
+
+options:
+  bundleIdPrefix: com.jiahuichen
+  createIntermediateGroups: true
+  deploymentTarget:
+    macOS: "13.0"
+    iOS: "16.0"
+  xcodeVersion: "16.0"
+
+settings:
+  base:
+    DEVELOPMENT_TEAM: TX65SX7Y23
+    CURRENT_PROJECT_VERSION: 1
+    MARKETING_VERSION: 1.0
+    SWIFT_VERSION: 5.0
+    CLANG_ENABLE_MODULES: YES
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    ITSAppUsesNonExemptEncryption: NO
+
+targets:
+  LittleColorist-macOS:
+    type: application
+    platform: macOS
+    sources:
+      - path: LittleColorist/App
+      - path: LittleColorist/Resources
+        excludes:
+          - Info-macOS.plist
+    info:
+      path: LittleColorist/Config/Info-macOS.plist
+      properties:
+        CFBundleDisplayName: 小小涂色家
+        CFBundleName: 小小涂色家
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        LSApplicationCategoryType: public.app-category.games
+        LSMinimumSystemVersion: "$(MACOSX_DEPLOYMENT_TARGET)"
+        NSHumanReadableCopyright: Copyright © 2026 JIAHUI CHEN. All rights reserved.
+        NSHighResolutionCapable: true
+        NSSupportsAutomaticGraphicsSwitching: true
+        LSMultipleInstancesProhibited: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jiahuichen.littlecolorist
+        PRODUCT_NAME: 小小涂色家
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ENTITLEMENTS: LittleColorist/Config/LittleColorist-macOS.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        COMBINE_HIDPI_IMAGES: YES
+        ENABLE_HARDENED_RUNTIME: YES
+
+  LittleColorist-iOS:
+    type: application
+    platform: iOS
+    sources:
+      - path: LittleColorist/App
+      - path: LittleColorist/Resources
+        excludes:
+          - Info-iOS.plist
+          - AppIcon.icns
+    info:
+      path: LittleColorist/Config/Info-iOS.plist
+      properties:
+        CFBundleDisplayName: 小小涂色家
+        CFBundleName: 小小涂色家
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        LSApplicationCategoryType: public.app-category.games
+        NSHumanReadableCopyright: Copyright © 2026 JIAHUI CHEN. All rights reserved.
+        UILaunchScreen: {}
+        UIApplicationSupportsIndirectInputEvents: true
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        "UISupportedInterfaceOrientations~ipad":
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jiahuichen.littlecolorist.ios
+        PRODUCT_NAME: 小小涂色家
+        CODE_SIGN_STYLE: Automatic
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SUPPORTS_MACCATALYST: NO
+
+schemes:
+  LittleColorist-macOS:
+    build:
+      targets:
+        LittleColorist-macOS: all
+    run:
+      config: Debug
+    archive:
+      config: Release
+  LittleColorist-iOS:
+    build:
+      targets:
+        LittleColorist-iOS: all
+    run:
+      config: Debug
+    archive:
+      config: Release

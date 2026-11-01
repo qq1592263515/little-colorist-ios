@@ -1,0 +1,14 @@
+.DS_Store
+.work/
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+AuthKey_*.p8
+*.p12
+*.cer
+*.pem
+*.mobileprovision
+*.provisionprofile
+AppStore/support-site/.git/
+AppStore/support-site/

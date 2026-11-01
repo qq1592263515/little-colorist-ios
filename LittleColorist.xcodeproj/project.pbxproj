@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D964BC78FE6C14688607059 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5EB3B21AF684F4AB1E02 /* index.html */; };
+		264B9A700219DD4948A0C274 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF6FD29231F0E1493512C3A /* ContentView.swift */; };
+		4B9CAB8930E860AE637FE29D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5EB3B21AF684F4AB1E02 /* index.html */; };
+		507EC85FA50C11F9325FC6AF /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9E8408CE4C67B08956E28034 /* AppIcon.icns */; };
+		58DA705E1CD1FE65D03763C1 /* OfflineGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F64927C79114B62D2046E18 /* OfflineGameView.swift */; };
+		7490358DA75344D693D26509 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF6FD29231F0E1493512C3A /* ContentView.swift */; };
+		75796182039242F45F3637ED /* OfflineGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F64927C79114B62D2046E18 /* OfflineGameView.swift */; };
+		9A35DA337BB34B5984F5AED6 /* LittleColoristApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21051A917A1737721F49E7D /* LittleColoristApp.swift */; };
+		9D44AC9C07FA917A99A89837 /* LittleColoristApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21051A917A1737721F49E7D /* LittleColoristApp.swift */; };
+		C36CC88D98BAFC7C54D46F7B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D345297AD6CB60C0A27497E1 /* PrivacyInfo.xcprivacy */; };
+		CF4DA9F030D8DB5CFC0C0398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F920185B4DD248916F5A3D9 /* Assets.xcassets */; };
+		DD13DCEB066A0448BA3AE9C2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D345297AD6CB60C0A27497E1 /* PrivacyInfo.xcprivacy */; };
+		EE53C8F617B7B89EE84B506D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F920185B4DD248916F5A3D9 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F920185B4DD248916F5A3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62B9C2CC832C13F00ECCB601 /* LittleColorist-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LittleColorist-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F64927C79114B62D2046E18 /* OfflineGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineGameView.swift; sourceTree = "<group>"; };
+		9E8408CE4C67B08956E28034 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		B9BB5EB3B21AF684F4AB1E02 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		D345297AD6CB60C0A27497E1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DCDBD94180BAE70A5B0A27CB /* LittleColorist-iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "LittleColorist-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF6FD29231F0E1493512C3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F21051A917A1737721F49E7D /* LittleColoristApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleColoristApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		10A1CC51E9C45516527756E3 /* LittleColorist */ = {
+			isa = PBXGroup;
+			children = (
+				18DAB41FE156D3CD3866642D /* App */,
+				6DC9F72D690C0EE99F3D78E0 /* Resources */,
+			);
+			path = LittleColorist;
+			sourceTree = "<group>";
+		};
+		18DAB41FE156D3CD3866642D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DDF6FD29231F0E1493512C3A /* ContentView.swift */,
+				F21051A917A1737721F49E7D /* LittleColoristApp.swift */,
+				6F64927C79114B62D2046E18 /* OfflineGameView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5BCF20B9A37171D575392F3C = {
+			isa = PBXGroup;
+			children = (
+				10A1CC51E9C45516527756E3 /* LittleColorist */,
+				CD880782E7BD720EF666338D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DC9F72D690C0EE99F3D78E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E8408CE4C67B08956E28034 /* AppIcon.icns */,
+				3F920185B4DD248916F5A3D9 /* Assets.xcassets */,
+				B9BB5EB3B21AF684F4AB1E02 /* index.html */,
+				D345297AD6CB60C0A27497E1 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD880782E7BD720EF666338D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCDBD94180BAE70A5B0A27CB /* LittleColorist-iOS.app */,
+				62B9C2CC832C13F00ECCB601 /* LittleColorist-macOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A3B1B18080C632414DD298C /* LittleColorist-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F37AE218830035DC0C1059 /* Build configuration list for PBXNativeTarget "LittleColorist-iOS" */;
+			buildPhases = (
+				E6706B0360024DD3E208890A /* Sources */,
+				6CA506D2CFF4E876655B803F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LittleColorist-iOS";
+			packageProductDependencies = (
+			);
+			productName = "LittleColorist-iOS";
+			productReference = DCDBD94180BAE70A5B0A27CB /* LittleColorist-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C90DFDD5D8B674BD602048F0 /* LittleColorist-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F368CA7EB298EBACD38ED9A /* Build configuration list for PBXNativeTarget "LittleColorist-macOS" */;
+			buildPhases = (
+				106189841E9D864711EC1894 /* Sources */,
+				F85A4A14D32A120A7D8FB3F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LittleColorist-macOS";
+			packageProductDependencies = (
+			);
+			productName = "LittleColorist-macOS";
+			productReference = 62B9C2CC832C13F00ECCB601 /* LittleColorist-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1FC306A76E66CCB77204677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					4A3B1B18080C632414DD298C = {
+						DevelopmentTeam = TX65SX7Y23;
+						ProvisioningStyle = Automatic;
+					};
+					C90DFDD5D8B674BD602048F0 = {
+						DevelopmentTeam = TX65SX7Y23;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B4FD4291ADCA9E0784CDC827 /* Build configuration list for PBXProject "LittleColorist" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5BCF20B9A37171D575392F3C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CD880782E7BD720EF666338D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C90DFDD5D8B674BD602048F0 /* LittleColorist-macOS */,
+				4A3B1B18080C632414DD298C /* LittleColorist-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CA506D2CFF4E876655B803F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE53C8F617B7B89EE84B506D /* Assets.xcassets in Resources */,
+				DD13DCEB066A0448BA3AE9C2 /* PrivacyInfo.xcprivacy in Resources */,
+				1D964BC78FE6C14688607059 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85A4A14D32A120A7D8FB3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507EC85FA50C11F9325FC6AF /* AppIcon.icns in Resources */,
+				CF4DA9F030D8DB5CFC0C0398 /* Assets.xcassets in Resources */,
+				C36CC88D98BAFC7C54D46F7B /* PrivacyInfo.xcprivacy in Resources */,
+				4B9CAB8930E860AE637FE29D /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		106189841E9D864711EC1894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264B9A700219DD4948A0C274 /* ContentView.swift in Sources */,
+				9D44AC9C07FA917A99A89837 /* LittleColoristApp.swift in Sources */,
+				75796182039242F45F3637ED /* OfflineGameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6706B0360024DD3E208890A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7490358DA75344D693D26509 /* ContentView.swift in Sources */,
+				9A35DA337BB34B5984F5AED6 /* LittleColoristApp.swift in Sources */,
+				58DA705E1CD1FE65D03763C1 /* OfflineGameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D80277BAB6CDB31902CD7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TX65SX7Y23;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ITSAppUsesNonExemptEncryption = NO;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4F04A81C9013BC79B690A2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "LittleColorist/Config/LittleColorist-macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "LittleColorist/Config/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiahuichen.littlecolorist;
+				PRODUCT_NAME = "小小涂色家";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9331215C37210144AC3A3C3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LittleColorist/Config/Info-iOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiahuichen.littlecolorist.ios;
+				PRODUCT_NAME = "小小涂色家";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93BD8169233BE0643D4D51F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "LittleColorist/Config/LittleColorist-macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "LittleColorist/Config/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiahuichen.littlecolorist;
+				PRODUCT_NAME = "小小涂色家";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B0E62EB26A3EE07D499B8CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TX65SX7Y23;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ITSAppUsesNonExemptEncryption = NO;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFB321D8AADBE1E8D3BDBFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LittleColorist/Config/Info-iOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiahuichen.littlecolorist.ios;
+				PRODUCT_NAME = "小小涂色家";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F368CA7EB298EBACD38ED9A /* Build configuration list for PBXNativeTarget "LittleColorist-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BD8169233BE0643D4D51F4 /* Debug */,
+				4F04A81C9013BC79B690A2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B4FD4291ADCA9E0784CDC827 /* Build configuration list for PBXProject "LittleColorist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E62EB26A3EE07D499B8CF4 /* Debug */,
+				3D80277BAB6CDB31902CD7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C0F37AE218830035DC0C1059 /* Build configuration list for PBXNativeTarget "LittleColorist-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB321D8AADBE1E8D3BDBFC8 /* Debug */,
+				9331215C37210144AC3A3C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1FC306A76E66CCB77204677 /* Project object */;
+}

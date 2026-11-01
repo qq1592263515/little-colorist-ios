@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>小小涂色家截图</title>
+  <style>
+    html,body,iframe{margin:0;width:100%;height:100%;border:0;overflow:hidden;background:#faf8f3}
+  </style>
+</head>
+<body>
+  <iframe id="game" src="../LittleColorist/Resources/index.html"></iframe>
+  <script>
+    const screen = new URLSearchParams(location.search).get("screen") || "home";
+    const frame = document.getElementById("game");
+    const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+    const buttonWith = (document, text) =>
+      [...document.querySelectorAll("button")].find(button => button.textContent.includes(text));
+    const report = document => {
+      const root = document.documentElement;
+      window.document.title = `${root.clientWidth}x${root.clientHeight}/${root.scrollWidth}x${root.scrollHeight}`;
+    };
+
+    frame.addEventListener("load", async () => {
+      await sleep(300);
+      const document = frame.contentDocument;
+      const window = frame.contentWindow;
+
+      if (screen === "match") {
+        document.querySelector('a[href="#match"]').click();
+        await sleep(350);
+        report(document);
+        return;
+      }
+
+      if (!screen.startsWith("paint")) {
+        report(document);
+        return;
+      }
+
+      buttonWith(document, "画册 02").click();
+      await sleep(250);
+      buttonWith(document, "小猫").click();
+      await sleep(300);
+
+      const clickColor = label =>
+        document.querySelector(`button[aria-label="${label}"]`).click();
+      const clickPart = label =>
+        document.querySelector(`[aria-label="${label}"]`).dispatchEvent(
+          new window.MouseEvent("click", { bubbles: true, cancelable: true, view: window })
+        );
+
+      clickColor("珊瑚红");
+      await sleep(40);
+      clickPart("给身体涂色");
+      await sleep(40);
+      clickColor("太阳黄");
+      await sleep(40);
+      clickPart("给肚子涂色");
+      await sleep(40);
+      clickColor("天空蓝");
+      await sleep(40);
+      clickPart("给右脚涂色");
+      await sleep(40);
+      clickColor("青草绿");
+      await sleep(40);
+      clickPart("给尾巴涂色");
+      window.scrollTo(0, 0);
+      await sleep(300);
+      report(document);
+    });
+  </script>
+</body>
+</html>

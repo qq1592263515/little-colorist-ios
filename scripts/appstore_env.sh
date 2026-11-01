@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+export APPLE_KEY_ID="${APPLE_KEY_ID:-7692Q25SWM}"
+export APPLE_ISSUER_ID="${APPLE_ISSUER_ID:-c12999bd-d7e4-47e3-b8f8-b8f400770f87}"
+export APPLE_PRIVATE_KEY_PATH="${APPLE_PRIVATE_KEY_PATH:-$HOME/.appstoreconnect/private_keys/AuthKey_7692Q25SWM.p8}"

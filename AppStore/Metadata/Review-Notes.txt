@@ -1,0 +1,7 @@
+This is a complete offline interactive coloring game. It does not contain web login, external links, ads, analytics, accounts, payments, or user-generated content upload.
+
+All game drawings and interactions are bundled in the app. On launch, select any coloring book to reach the core gameplay. The mode control at the top right switches between free coloring and a picture-matching challenge. The Save button opens the native system save panel.
+
+No reviewer account is required. The app does not request network, camera, location, contacts, microphone, or photo library permissions. Progress is stored locally on the device through the app's WKWebView storage.
+
+Price is Free. There are no in-app purchases or subscriptions.
